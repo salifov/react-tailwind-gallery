@@ -1,4 +1,5 @@
 {
+  "homepage": "http://salifov.github.io/react-tailwind-gallery",
   "name": "react-tailwiind-gallery",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
